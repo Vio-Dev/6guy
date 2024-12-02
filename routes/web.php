@@ -36,7 +36,8 @@ Route::prefix('admin')->group(function () {
 
 Route::get('/blog/{post}', [PostController::class, 'show'])->name('user.blog.show');
 Route::get('/blog', [PostController::class, 'list'])->name('user.blog.index');
-
+// routes/web.php
+Route::get('/', [HomeController::class, 'home'])->name('index');
 
 
 Route::get('/welcome', function () {
@@ -100,9 +101,9 @@ Route::delete('/admin/user/{id}', [usersCcontroller::class, 'destroy'])->name('a
 Route::get('/admin/user/edit/{id}', [usersCcontroller::class, 'edit'])->name('admin.user.edit');
 Route::put('/admin/user/update/{id}', [usersCcontroller::class, 'update'])->name('admin.user.update');
 
-Route::get('/', [HomeController::class, 'index'])->name('index');
-Route::get('/products/all', [HomeController::class, 'showAll'])->name('products.showall');
 
+Route::get('/products/all', [HomeController::class, 'showAll'])->name('products.showall');
+Route::get('/', [HomeController::class, 'index'])->name('index');
 Route::get('/checkout/confirm', [CheckoutController::class, 'showConfirmCheckout'])->name('user.checkout.confirm');
 Route::get('/checkout', [CheckoutController::class, 'showCheckoutForm'])->name('user.checkout');
 Route::post('/checkout/process', [CheckoutController::class, 'processCheckout'])->name('user.checkout.process');

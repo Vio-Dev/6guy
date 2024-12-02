@@ -108,7 +108,7 @@ class PostController extends Controller
     {
         $posts = Post::all();
         return view('admin.blog.index', compact('posts'));
-    }
+    }  
     // Hiển thị danh sách bài viết cho người dùng
     public function list()
     {
