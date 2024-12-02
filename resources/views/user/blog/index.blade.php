@@ -94,7 +94,7 @@
 									</h4>
 				
 									<p class="stext-117 cl6">
-										{{ Str::limit(strip_tags($post->content), 150) }} <!-- Hiển thị một đoạn ngắn của bài viết -->
+										{{ Str::limit(strip_tags($post->short_description), 150) }} <!-- Hiển thị một đoạn ngắn của bài viết -->
 									</p>
 				
 									<div class="flex-w flex-sb-m p-t-18">

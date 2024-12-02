@@ -125,6 +125,7 @@
                                             <tr>
                                                 <th>Hình Ảnh Bìa</th>
                                                 <th>Tiêu Đề</th>
+                                                <th>Mô tả ngắn</th>
                                                 <th>Tác giả</th>
                                                 <th>Nội Dung</th>
                                                 <th>Ngày</th>
@@ -148,6 +149,9 @@
                                                     <!-- Tiêu Đề -->
                                                     <td>
                                                         {{ $post->title }}
+                                                    </td>
+                                                    <td>
+                                                        {{ Str::limit(strip_tags($post->short_description), 50, '...') }}
                                                     </td>
                                                     <td>
                                                         {{ $post->author }}

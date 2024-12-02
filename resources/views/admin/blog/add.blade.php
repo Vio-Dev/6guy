@@ -157,7 +157,13 @@
                                                 <input class="form-control" type="text" name="title" placeholder="Nhập tiêu đề bài viết" value="{{ old('title') }}" required>
                                             </div>
                                         </div>
-    
+                                          <!-- mô tả ngắn -->
+                                          <div class="mb-4 row align-items-center">
+                                            <label class="form-label-title col-sm-2 mb-0">Mô tả ngắn</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" name="short_description" placeholder="Nhập mô tả bài viết" value="{{ old('short_description') }}" required>
+                                            </div>
+                                        </div>
                                         <!-- Nội Dung -->
                                         <div class="mb-4 row align-items-center">
                                             <label class="form-label-title col-sm-2 mb-0">Nội Dung</label>

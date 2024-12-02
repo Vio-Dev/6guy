@@ -51,7 +51,11 @@
                 <label for="title">Tiêu Đề</label>
                 <input type="text" class="form-control" id="title" name="title" value="{{ old('title', $post->title) }}" required>
             </div>
-
+                <!-- mô tả ngắn -->
+                <div class="form-group">
+                    <label for="short_description">mô tả ngắn</label>
+                    <textarea class="form-control" id="short_description" name="short_description" rows="5" required>{{ old('short_description', $post->short_description) }}</textarea>
+                </div>
             <!-- Nội Dung -->
             <div class="form-group">
                 <label for="content">Nội Dung</label>
