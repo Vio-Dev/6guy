@@ -215,6 +215,33 @@
                                 </tbody>
                             </table>
                         </div>
+                        {{-- <div class="tab-pane fade" id="orders">
+                            <h3>Đơn hàng</h3>
+                            <table class="table table-bordered">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Mã đơn hàng</th>
+                                        <th>Ngày đặt</th>
+                                        <th>Trạng thái</th>
+                                        <th>Thành tiền</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Lặp qua các đơn hàng -->
+                                    @foreach ($orders as $order)
+                                        <tr>
+                                            <td>{{ $loop->iteration }}</td>
+                                            <td>{{ $order->order_number }}</td>
+                                            <td>{{ $order->created_at->format('d/m/Y') }}</td>
+                                            <td>{{ $order->status }}</td>
+                                            <td>{{ number_format($order->total, 0, ',', '.') }}đ</td>
+                                        </tr>
+                                    @endforeach
+                                </tbody>
+                            </table>
+                        </div> --}}
+
                         <!-- Password Update Tab -->
                         <div class="tab-pane fade" id="password">
                             <h3>Cập nhật mật khẩu</h3>
@@ -280,6 +307,8 @@
         <!-- Bootstrap JS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     </body>
+
+
     <style>
         /* Thay đổi màu nền của tất cả các nút có lớp .btn */
         .btn {
