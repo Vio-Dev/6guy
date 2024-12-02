@@ -74,12 +74,11 @@
 									@else
 										<img src="{{ asset('images/default-placeholder.png') }}" alt="Placeholder">
 									@endif
-				
 									<div class="flex-col-c-m size-123 bg9 how-pos5">
 										<span class="ltext-107 cl2 txt-center">
 											22 <!-- Có thể thay thế bằng ngày đăng bài viết -->
 										</span>
-				
+			
 										<span class="stext-109 cl3 txt-center">
 											{{ \Carbon\Carbon::parse($post->created_at)->format('M d, Y') }} <!-- Hiển thị ngày bài viết -->
 										</span>
