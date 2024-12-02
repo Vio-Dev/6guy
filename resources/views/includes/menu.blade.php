@@ -18,8 +18,8 @@
                              <li>
                                  <a href="{{ route('index') }}">Trang chủ</a>
                              </li>
-                             <li class="active-menu">
-                                 <a href="{{ route('products.showall') }}">Sản phẩm</a>
+                             <li class="active-menu" >
+                                 <a href="{{ route('products.showall') }}" data-label1="hot">Sản phẩm</a>
                                  <ul class="sub-menu">
                                      <li><a href="{{ route('category.manhinh') }}">Màn Hình</a></li>
                                      <li><a href="{{ route('category.banphimco') }}">Bàn Phím</a></li>
@@ -28,9 +28,7 @@
                                      <li><a href="{{ route('category.chuotkhongday') }}">Chuột Không Dây</a></li>
                                  </ul>
                              </li>
-                             <li class="label1" data-label1="hot">
-                                 <a href="shoping-cart.html">Đặc trưng</a>
-                             </li>
+                          
 
                              <li>
                                  <a href="{{ route('user.blog.index') }}">Bài viết</a>
@@ -104,7 +102,7 @@
                  <li>
                      <a href="{{ route('index') }}">Trang chủ</a>
                  </li>
-                 <li>
+                 <li class="label1" data-label1="hot">
                      <a href="{{ route('products.showall') }}">Sản phẩm</a>
                      <ul class="sub-menu-m">
                          <li><a href="{{ route('category.manhinh') }}">Màn Hình</a></li>
@@ -117,9 +115,7 @@
                          <i class="fa fa-angle-right" aria-hidden="true"></i>
                      </span>
                  </li>
-				 <li class="label1" data-label1="hot">
-					<a href="shoping-cart.html">Đặc trưng</a>
-				</li>
+				
 
 				<li>
 					<a href="{{ route('user.blog.index') }}">Bài viết</a>
