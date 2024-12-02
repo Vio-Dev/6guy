@@ -17,6 +17,14 @@ use App\Http\Controllers\VNPayController;
 use App\Http\Controllers\Admin\CouponController;
 
 
+use App\Http\Controllers\WishlistController;
+
+Route::middleware(['auth'])->group(function () {
+    Route::get('/wishlist', [WishlistController::class, 'index'])->name('wishlist.index');
+    Route::post('/wishlist/{productId}', [WishlistController::class, 'store'])->name('wishlist.store');
+    Route::delete('/wishlist/{id}', [WishlistController::class, 'destroy'])->name('wishlist.destroy');
+});
+
 Route::prefix('admin')->group(function () {
     Route::get('/posts', [PostController::class, 'index'])->name('admin.blog.index'); // Hiển thị danh sách bài viết
     Route::get('/posts/create', [PostController::class, 'create'])->name('admin.blog.add'); // Form tạo bài viết mới
