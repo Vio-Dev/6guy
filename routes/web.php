@@ -52,6 +52,9 @@ Route::middleware('auth')->group(function () {
 });
 require __DIR__ . '/auth.php';
 
+// Đảm bảo rằng bạn đã thêm route để xem đơn hàng của người dùng trong `web.php`
+Route::middleware('auth')->get('order/{orderId}', [CheckoutController::class, 'viewOrder'])->name('order.view');
+
 // Route::middleware('auth')->prefix('admin')->group(function () {
 //     Route::resource('category', CategoryController::class);
 //     Route::resource('product', ProductController::class);
