@@ -182,161 +182,148 @@
         </div>
     </div>
 </section> --}}
-    <section class="section-slide">
-        <div class="wrap-slick1 rs1-slick1">
-            <div class="slick1">
-                <div class="item-slick1" style="background-image: url({{ asset('img/banner7.jpg') }});">
-                    <div class="container h-full">
-                        <div class="flex-col-l-m h-full p-t-100 p-b-30">
-                            <div class="layer-slick1 animated visible-false" data-appear="fadeInDown" data-delay="0">
-                                <span class="ltext-202 cl2 respon2">
-                                    Các thiết bị gaming cực hot
-                                </span>
-                            </div>
-
-                            <div class="layer-slick1 animated visible-false" data-appear="fadeInUp" data-delay="800">
-                                <h2 class="ltext-104 cl2 p-t-19 p-b-43 respon1">
-                                    Chuột Gaimg
-                                </h2>
-                            </div>
-
-                            <div class="layer-slick1 animated visible-false" data-appear="zoomIn" data-delay="1600">
-                                <a href="product.html"
-                                    class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04">
-                                    Xem ngay
-                                </a>
-                            </div>
+<section class="section-slide">
+    <div class="wrap-slick1 rs1-slick1">
+        <div class="slick1">
+            <!-- Slide 1 -->
+            <div class="item-slick1" style="background-image: url({{ asset('img/banner8.jpg') }});">
+                <div class="container h-full">
+                    <div class="flex-col-l-m h-full p-t-100 p-b-30">
+                        <div class="layer-slick1 animated visible-false" data-appear="fadeInDown" data-delay="0">
+                            <span class="ltext-202 cl2 respon2">
+                                Các thiết bị gaming cực hot
+                            </span>
                         </div>
-                    </div>
-                </div>
-
-                <div class="item-slick1" style="background-image: url({{ asset('img/banner5.jpg') }});">
-                    <div class="container h-full">
-                        <div class="flex-col-l-m h-full p-t-100 p-b-30">
-                            <div class="layer-slick1 animated visible-false" data-appear="rollIn" data-delay="0">
-                                <span class="ltext-202 cl2 respon2">
-                                    Thiết kế đẹp mắt
-                                </span>
-                            </div>
-
-                            <div class="layer-slick1 animated visible-false" data-appear="lightSpeedIn" data-delay="800">
-                                <h2 class="ltext-104 cl2 p-t-19 p-b-43 respon1">
-                                    Màn hình và bàn gaming
-                                </h2>
-                            </div>
-
-                            <div class="layer-slick1 animated visible-false" data-appear="slideInUp" data-delay="1600">
-                                <a href="product.html"
-                                    class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04">
-                                    Xem ngay
-                                </a>
-                            </div>
+                        <div class="layer-slick1 animated visible-false" data-appear="fadeInUp" data-delay="800">
+                            <h2 class="ltext-104 cl2 p-t-19 p-b-43 respon1">
+                                Chuột Gaming
+                            </h2>
                         </div>
-                    </div>
-                </div>
-
-                <div class="item-slick1" style="background-image: url({{ asset('img/banner1.jpg') }});">
-                    <div class="container h-full">
-                        <div class="flex-col-l-m h-full p-t-100 p-b-30">
-                            <div class="layer-slick1 animated visible-false" data-appear="rotateInDownLeft" data-delay="0">
-                                <span class="ltext-202 cl2 respon2">
-                                    Bàn phím cơ cực chất
-                                </span>
-                            </div>
-
-                            <div class="layer-slick1 animated visible-false" data-appear="rotateInUpRight" data-delay="800">
-                                <h2 class="ltext-104 cl2 p-t-19 p-b-43 respon1">
-                                    Bàn phím gaming
-                                </h2>
-                            </div>
-
-                            <div class="layer-slick1 animated visible-false" data-appear="rotateIn" data-delay="1600">
-                                <a href="product.html"
-                                    class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04">
-                                    Xem ngay
-                                </a>
-                            </div>
+                        <div class="layer-slick1 animated visible-false" data-appear="zoomIn" data-delay="1600">
+                            <a href="product.html"
+                                class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04">
+                                Xem ngay
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Banner -->
-    <div class="sec-banner bg0">
-        <div class="flex-w flex-c-m">
-            <div class="size-202 m-lr-auto respon4">
-                <!-- Block1 -->
-                <div class="block1 wrap-pic-w">
-                    <img src="{{ asset('img/banphim.jpg') }}" alt="IMG-BANNER">
-
-                    <a href="{{ route('category.banphimco') }}"
-                        class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
-                        <div class="block1-txt-child1 flex-col-l">
-                            <span class="block1-name ltext-102 trans-04 p-b-8">
-                                Bàn phím
+            <!-- Slide 2 -->
+            <div class="item-slick1" style="background-image: url({{ asset('img/banner5.jpg') }});">
+                <div class="container h-full">
+                    <div class="flex-col-l-m h-full p-t-100 p-b-30">
+                        <div class="layer-slick1 animated visible-false" data-appear="rollIn" data-delay="0">
+                            <span class="ltext-202 cl2 respon2">
+                                Thiết kế đẹp mắt
                             </span>
-
-
                         </div>
-
-                        <div class="block1-txt-child2 p-b-4 trans-05">
-                            <div class="block1-link stext-101 cl0 trans-09">
-                                Mua ngay
-                            </div>
+                        <div class="layer-slick1 animated visible-false" data-appear="lightSpeedIn" data-delay="800">
+                            <h2 class="ltext-104 cl2 p-t-19 p-b-43 respon1">
+                                Màn hình và bàn gaming
+                            </h2>
                         </div>
-                    </a>
+                        <div class="layer-slick1 animated visible-false" data-appear="slideInUp" data-delay="1600">
+                            <a href="product.html"
+                                class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04">
+                                Xem ngay
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <div class="size-202 m-lr-auto respon4">
-                <!-- Block1 -->
-                <div class="block1 wrap-pic-w">
-                    <img src="{{ asset('img/e.png') }}" alt="IMG-BANNER">
-
-                    <a href="{{ route('category.chuotkhongday') }}"
-                        class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
-                        <div class="block1-txt-child1 flex-col-l">
-                            <span class="block1-name ltext-102 trans-04 p-b-8">
-                                Chuột
+            <!-- Slide 3 -->
+            <div class="item-slick1" style="background-image: url({{ asset('img/banner1.jpg') }});">
+                <div class="container h-full">
+                    <div class="flex-col-l-m h-full p-t-100 p-b-30">
+                        <div class="layer-slick1 animated visible-false" data-appear="rotateInDownLeft" data-delay="0">
+                            <span class="ltext-202 cl2 respon2">
+                                Bàn phím cơ cực chất
                             </span>
-
                         </div>
-
-                        <div class="block1-txt-child2 p-b-4 trans-05">
-                            <div class="block1-link stext-101 cl0 trans-09">
-                                Mua ngay
-                            </div>
+                        <div class="layer-slick1 animated visible-false" data-appear="rotateInUpRight" data-delay="800">
+                            <h2 class="ltext-104 cl2 p-t-19 p-b-43 respon1">
+                                Bàn phím gaming
+                            </h2>
                         </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="size-202 m-lr-auto respon4">
-                <!-- Block1 -->
-                <div class="block1 wrap-pic-w">
-                    <img src="{{ asset('img/man.jpg') }}" alt="IMG-BANNER">
-
-                    <a href="{{ route('category.manhinh') }}"
-                        class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
-                        <div class="block1-txt-child1 flex-col-l">
-                            <span class="block1-name ltext-102 trans-04 p-b-8">
-                                Màn hình
-                            </span>
-
-
+                        <div class="layer-slick1 animated visible-false" data-appear="rotateIn" data-delay="1600">
+                            <a href="product.html"
+                                class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04">
+                                Xem ngay
+                            </a>
                         </div>
-
-                        <div class="block1-txt-child2 p-b-4 trans-05">
-                            <div class="block1-link stext-101 cl0 trans-09">
-                                Mua ngay
-                            </div>
-                        </div>
-                    </a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+</section>
+
+<!-- Banner Section -->
+<div class="sec-banner bg0">
+    <div class="flex-w flex-c-m">
+        <!-- Banner 1 -->
+        <div class="size-202 m-lr-auto respon4">
+            <div class="block1 wrap-pic-w">
+                <img src="{{ asset('img/banner2.jpg') }}" alt="IMG-BANNER">
+                <a href="{{ route('category.banphimco') }}"
+                    class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
+                    <div class="block1-txt-child1 flex-col-l">
+                        <span class="block1-name ltext-102 trans-04 p-b-8">
+                            Bàn phím
+                        </span>
+                    </div>
+                    <div class="block1-txt-child2 p-b-4 trans-05">
+                        <div class="block1-link stext-101 cl0 trans-09">
+                            Mua ngay
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Banner 2 -->
+        <div class="size-202 m-lr-auto respon4">
+            <div class="block1 wrap-pic-w">
+                <img src="{{ asset('img/banner3.jpg') }}" alt="IMG-BANNER">
+                <a href="{{ route('category.chuotkhongday') }}"
+                    class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
+                    <div class="block1-txt-child1 flex-col-l">
+                        <span class="block1-name ltext-102 trans-04 p-b-8">
+                            Chuột
+                        </span>
+                    </div>
+                    <div class="block1-txt-child2 p-b-4 trans-05">
+                        <div class="block1-link stext-101 cl0 trans-09">
+                            Mua ngay
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Banner 3 -->
+        <div class="size-202 m-lr-auto respon4">
+            <div class="block1 wrap-pic-w">
+                <img src="{{ asset('img/banner4.png') }}" alt="IMG-BANNER">
+                <a href="{{ route('category.manhinh') }}"
+                    class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
+                    <div class="block1-txt-child1 flex-col-l">
+                        <span class="block1-name ltext-102 trans-04 p-b-8">
+                            Màn hình
+                        </span>
+                    </div>
+                    <div class="block1-txt-child2 p-b-4 trans-05">
+                        <div class="block1-link stext-101 cl0 trans-09">
+                            Mua ngay
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
     <!-- Product -->
     <section class="sec-product bg0 p-t-100 p-b-50">
         <div class="container">
@@ -721,4 +708,5 @@
             });
         });
     </script>
+    
 @endsection
