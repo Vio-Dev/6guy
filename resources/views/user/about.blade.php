@@ -2,9 +2,9 @@
 
 @section('content')
 	<!-- Title page -->
-	<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('images/bg-01.jpg');">
+	<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('{{ asset('img/banner6.jpg') }}');">
 		<h2 class="ltext-105 cl0 txt-center">
-			About
+			Về chúng tôi
 		</h2>
 	</section>	
 
@@ -16,19 +16,17 @@
 				<div class="col-md-7 col-lg-8">
 					<div class="p-t-7 p-r-85 p-r-15-lg p-r-0-md">
 						<h3 class="mtext-111 cl2 p-b-16">
-							Our Story
+							Tại sao chọn Decor Gaming?
 						</h3>
 
 						<p class="stext-113 cl6 p-b-26">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consequat consequat enim, non auctor massa ultrices non. Morbi sed odio massa. Quisque at vehicula tellus, sed tincidunt augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas varius egestas diam, eu sodales metus scelerisque congue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas gravida justo eu arcu egestas convallis. Nullam eu erat bibendum, tempus ipsum eget, dictum enim. Donec non neque ut enim dapibus tincidunt vitae nec augue. Suspendisse potenti. Proin ut est diam. Donec condimentum euismod tortor, eget facilisis diam faucibus et. Morbi a tempor elit.
-						</p>
+							Chúng tôi hiểu rằng mỗi game thủ đều có những sở thích và phong cách riêng biệt. Đó chính là lý do tại sao Decor Gaming cung cấp một loạt các sản phẩm trang trí linh hoạt, từ những món đồ decor nhỏ nhắn nhưng tinh tế đến các bộ sưu tập trang trí đậm chất nghệ thuật.						</p>
 
 						<p class="stext-113 cl6 p-b-26">
-							Donec gravida lorem elit, quis condimentum ex semper sit amet. Fusce eget ligula magna. Aliquam aliquam imperdiet sodales. Ut fringilla turpis in vehicula vehicula. Pellentesque congue ac orci ut gravida. Aliquam erat volutpat. Donec iaculis lectus a arcu facilisis, eu sodales lectus sagittis. Etiam pellentesque, magna vel dictum rutrum, neque justo eleifend elit, vel tincidunt erat arcu ut sem. Sed rutrum, turpis ut commodo efficitur, quam velit convallis ipsum, et maximus enim ligula ac ligula. 
-						</p>
+							Bất kể bạn yêu thích sự mạnh mẽ của một game bắn súng, sự huyền bí của thế giới fantasy, hay sự hoành tráng của các chiến trường đa vũ trụ, chúng tôi đều có giải pháp trang trí phù hợp cho không gian của bạn.						</p>
 
 						<p class="stext-113 cl6 p-b-26">
-							Any questions? Let us know in store at 8th floor, 379 Hudson St, New York, NY 10018 or call us on (+1) 96 716 6879
+							Có câu hỏi nào không? Hãy đến 100 Ymoanl - P.Tân Lợi, TP.BMT - Đăk Lăk, Vandieukd@gmail.com hoặc liên hệ(+84) 0399 029 537, để được giải đáp và tư vấn.
 						</p>
 					</div>
 				</div>
@@ -36,7 +34,7 @@
 				<div class="col-11 col-md-5 col-lg-4 m-lr-auto">
 					<div class="how-bor1 ">
 						<div class="hov-img0">
-							<img src="images/about-01.jpg" alt="IMG">
+							<img src="{{ asset('img/banner4.jpg') }}" alt="IMG">
 						</div>
 					</div>
 				</div>
@@ -46,20 +44,18 @@
 				<div class="order-md-2 col-md-7 col-lg-8 p-b-30">
 					<div class="p-t-7 p-l-85 p-l-15-lg p-l-0-md">
 						<h3 class="mtext-111 cl2 p-b-16">
-							Our Mission
+							Sứ mệnh của chúng tôi
 						</h3>
 
 						<p class="stext-113 cl6 p-b-26">
-							Mauris non lacinia magna. Sed nec lobortis dolor. Vestibulum rhoncus dignissim risus, sed consectetur erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam maximus mauris sit amet odio convallis, in pharetra magna gravida. Praesent sed nunc fermentum mi molestie tempor. Morbi vitae viverra odio. Pellentesque ac velit egestas, luctus arcu non, laoreet mauris. Sed in ipsum tempor, consequat odio in, porttitor ante. Ut mauris ligula, volutpat in sodales in, porta non odio. Pellentesque tempor urna vitae mi vestibulum, nec venenatis nulla lobortis. Proin at gravida ante. Mauris auctor purus at lacus maximus euismod. Pellentesque vulputate massa ut nisl hendrerit, eget elementum libero iaculis.
-						</p>
+							Tại Decor Gaming, chúng tôi không chỉ cung cấp những sản phẩm trang trí, mà còn mang đến một sứ mệnh lớn lao: giúp bạn xây dựng không gian chơi game hoàn hảo, phản ánh cá tính và sở thích của bạn, đồng thời nâng cao trải nghiệm chơi game lên một tầm cao mới. Chúng tôi hiểu rằng không gian chơi game không chỉ là nơi để thư giãn hay giải trí, mà còn là nơi bạn thể hiện bản thân, tìm thấy cảm hứng và kết nối với cộng đồng game thủ.						</p>
 
 						<div class="bor16 p-l-29 p-b-9 m-t-22">
 							<p class="stext-114 cl6 p-r-40 p-b-11">
-								Creativity is just connecting things. When you ask creative people how they did something, they feel a little guilty because they didn't really do it, they just saw something. It seemed obvious to them after a while.
-							</p>
+								Sứ mệnh của Decor Gaming chính là biến mỗi không gian chơi game thành một trải nghiệm độc đáo và đầy cảm hứng, đồng thời giúp bạn thể hiện cá tính và sự sáng tạo của mình qua từng món đồ trang trí							</p>
 
 							<span class="stext-111 cl8">
-								- Steve Job’s 
+								- Vio 
 							</span>
 						</div>
 					</div>
@@ -68,7 +64,7 @@
 				<div class="order-md-1 col-11 col-md-5 col-lg-4 m-lr-auto p-b-30">
 					<div class="how-bor2">
 						<div class="hov-img0">
-							<img src="images/about-02.jpg" alt="IMG">
+							<img src="{{ asset('img/banner5.jpg') }}" alt="IMG">
 						</div>
 					</div>
 				</div>

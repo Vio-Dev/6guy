@@ -118,7 +118,7 @@
                 <div class="col-md-6 col-lg-7 p-b-30">
                     <div class="p-l-25 p-r-30 p-lr-0-lg">
                         <div class="wrap-slick3 flex-sb flex-w">
-                            <div class="wrap-slick3-dots"></div>
+                            {{-- <div class="wrap-slick3-dots"></div> --}}
                             <div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
                             <div class="slick3 gallery-lb">
                                 @if ($images && (is_array($images) || is_object($images)))
@@ -164,14 +164,13 @@
 
 
                         <p class="stext-102 cl3 p-t-23">
-                            Nulla eget sem vitae eros pharetra viverra. Nam vitae luctus ligula. Mauris consequat ornare
-                            feugiat.
+                            Màn hình Asus TUF GAMING VG249Q3A 24" Fast IPS 180Hz Gsync chuyên game.
                         </p>
 
                         <!--  -->
                         <div class="p-t-33">
                             <div class="flex-w flex-r-m p-b-10">
-                                <div class="size-203 flex-c-m respon6">
+                                {{-- <div class="size-203 flex-c-m respon6">
                                     Size
                                 </div>
 
@@ -186,10 +185,10 @@
                                         </select>
                                         <div class="dropDownSelect2"></div>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
 
-                            <div class="flex-w flex-r-m p-b-10">
+                            {{-- <div class="flex-w flex-r-m p-b-10">
                                 <div class="size-203 flex-c-m respon6">
                                     Color
                                 </div>
@@ -205,7 +204,7 @@
                                         </select>
                                         <div class="dropDownSelect2"></div>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
 
                             <div class="flex-w flex-r-m p-b-10">
@@ -214,30 +213,32 @@
                                         <div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
                                             <i class="fs-16 zmdi zmdi-minus"></i>
                                         </div>
-
-                                        <input class="mtext-104 cl3 txt-center num-product" type="number"
-                                            name="num-product" value="1">
-
+                            
+                                        <input class="mtext-104 cl3 txt-center num-product" type="number" name="num-product" value="1">
+                            
                                         <div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
                                             <i class="fs-16 zmdi zmdi-plus"></i>
                                         </div>
                                     </div>
-                                    <form action="{{ route('cart.add', ['itemId' => $product->id, 'quantity' => 1]) }}"
-                                        method="POST">
+                            
+                                    <!-- Form to Add to Cart -->
+                                    <form action="{{ route('cart.add', ['itemId' => $product->id, 'quantity' => 1]) }}" method="POST">
                                         @csrf
-                                        <button type="submit"
-                                            class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">Thêm
-                                            vào giỏ hàng</button>
+                                        <button type="submit" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
+                                            Thêm vào giỏ hàng
+                                        </button>
                                     </form>
+                            
+                                    <!-- Form to Add to Wishlist -->
                                     <form action="{{ route('wishlist.store', ['productId' => $product->id]) }}" method="POST">
                                         @csrf
-                                        <button type="submit" 
-                                            class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04">
+                                        <button type="submit" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04" style="margin-top: 10px;">
                                             Thêm vào yêu thích
                                         </button>
                                     </form>
                                 </div>
                             </div>
+                            
                         </div>
 
                         <!--  -->
